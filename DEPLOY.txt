@@ -1,0 +1,12 @@
+UPLOAD THIS FOLDER TO GITHUB
+============================
+
+This folder has everything needed to deploy. It does NOT include node_modules or dist (that's why it's small).
+
+1. Zip the entire "upload-ready" folder (or zip its CONTENTS so the root has package.json, src/, etc.).
+
+2. On GitHub: Add file → Upload files → drag the zip (or drag all the files from inside upload-ready).
+
+3. In Vercel: Import the repo → Framework: Vite, Build: npm run build, Output: dist → Deploy.
+
+4. After uploading, you can run "npm install" again in your main project folder to restore node_modules for local work.
